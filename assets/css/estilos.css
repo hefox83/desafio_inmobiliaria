@@ -1,0 +1,52 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    height: 100px;
+}
+
+
+.card img{
+    height: 250px;
+}
+.cardEstilo{
+    justify-content:space-around;
+    align-content: center;
+    margin: 5px;
+    border: solid 1px grey;
+    border-radius: 2%;
+    height: 100;
+    padding: 10px;
+    width: 500px;
+    margin: 20px;
+
+}
+.cardVA {
+    display: flex;
+}
+.card-imgV{
+    height: 250px; 
+    width: 300px
+      
+}
+.fa-smoking {
+    color: green;
+}
+.fa-ban{
+    color: red;
+}
+.fa-paw{
+    color: green;
+}
+.fa-smoking-ban {
+    color: red;
+}
